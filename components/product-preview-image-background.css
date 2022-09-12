@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0.00%,rgba(0, 0, 0, 0.68) 99.00%),url("public/playground_assets/glowtower-1500w.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0.00%,rgba(0, 0, 0, 0.68) 99.00%),url("public/playground_assets/glowtower.jpeg");
   background-repeat: repeat,no-repeat;
   background-position: top left,center;
 }
@@ -59,11 +59,11 @@
 }
 
 .product-preview-image-background-root-class-name1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0.00%,rgba(0, 0, 0, 0.68) 99.00%),url("public/playground_assets/glowlight-200h.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0.00%,rgba(0, 0, 0, 0.68) 99.00%),url("public/playground_assets/glowlight.jpeg");
   background-position: top left,bottom;
 }
 .product-preview-image-background-root-class-name2 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0.00%,rgba(0, 0, 0, 0.68) 99.00%),url("public/playground_assets/glowtube-200h.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0.00%,rgba(0, 0, 0, 0.68) 99.00%),url("public/playground_assets/glowtube.jpeg");
 }
 @media(max-width: 479px) {
   .product-preview-image-background-container {
