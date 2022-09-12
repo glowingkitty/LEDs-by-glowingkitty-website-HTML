@@ -1,0 +1,39 @@
+.startpage-header-image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  min-height: 380px;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/backgroundimage-1500h.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.startpage-header-image-text {
+  color: #ffffff;
+  font-size: 33px;
+  max-width: 319px;
+  text-align: center;
+  font-family: Lexend Deca;
+}
+.startpage-header-image-button {
+  color: #ffffff;
+  font-size: 20px;
+  background: linear-gradient(148.99deg, #C60000 11.01%, #B600C6 90.18%); ;
+  box-shadow: 5px 5px 10px 0px #000000;
+  margin-top: 57px;
+  font-family: Lexend Deca;
+  padding-top: 10px;
+  border-width: 0px;
+  padding-left: 20px;
+  border-radius: 10px;
+  padding-right: Space-HalfUnit;
+  padding-bottom: 10px;
+}
+.startpage-header-image-root-class-name {
+  height: 80vh;
+  margin-top: 85px;
+}
