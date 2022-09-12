@@ -23,7 +23,7 @@ jobs:
         node-version: 13.x
     
     - name: Install dependencies
-        run: |
+      run: |
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
