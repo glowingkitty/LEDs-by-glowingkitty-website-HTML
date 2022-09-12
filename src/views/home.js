@@ -8,6 +8,7 @@ import TopicSeparator from '../components/topic-separator'
 import ProductPreviewImageBackground from '../components/product-preview-image-background'
 import MeetupList from '../components/meetup-list'
 import ProductPreviewImageFront from '../components/product-preview-image-front'
+import NeedHelpWithAProject from '../components/need-help-with-a-project'
 import './home.css'
 
 const Home = (props) => {
@@ -37,6 +38,7 @@ const Home = (props) => {
       ></TopicSeparator>
       <MeetupList rootClassName="meetup-list-root-class-name"></MeetupList>
       <ProductPreviewImageFront rootClassName="product-preview-image-front-root-class-name"></ProductPreviewImageFront>
+      <NeedHelpWithAProject rootClassName="need-help-with-a-project-root-class-name"></NeedHelpWithAProject>
     </div>
   )
 }
