@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -14,34 +15,26 @@ const Header = (props) => {
           className="header-image"
         />
         <div className="header-container2">
-          <img
-            alt={props.image_alt1}
-            src={props.image_src1}
-            className="header-image1"
-          />
+          <Link to="/" className="header-navlink">
+            <img
+              alt={props.image_alt1}
+              src={props.image_src1}
+              className="header-image1"
+            />
+          </Link>
         </div>
         <div className="header-container3">
-          <a
-            href={props.link_text}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="headermenulink"
-          >
+          <Link to="/about" className="header-navlink1 headermenulink">
             {props.link1}
-          </a>
-          <a
-            href={props.link_text1}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="header-link1 headermenulink"
-          >
+          </Link>
+          <Link to="/products" className="header-navlink2 headermenulink">
             {props.link2}
-          </a>
+          </Link>
           <a
             href={props.link_text12}
             target="_blank"
             rel="noreferrer noopener"
-            className="header-link2 headermenulink"
+            className="header-link headermenulink"
           >
             {props.link3}
           </a>
@@ -49,7 +42,7 @@ const Header = (props) => {
             href={props.link_text11}
             target="_blank"
             rel="noreferrer noopener"
-            className="header-link3 headermenulink"
+            className="header-link1 headermenulink"
           >
             {props.link4}
           </a>

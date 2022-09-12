@@ -39,21 +39,23 @@
   align-items: center;
   justify-content: center;
 }
-.product-preview-image-front-text2 {
+.product-preview-image-front-navlink {
   color: #ffffff;
   font-family: Lexend Deca;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  text-decoration: none;
 }
-.product-preview-image-front-text3 {
+.product-preview-image-front-link {
   color: #ffffff;
   font-family: Lexend Deca;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  text-decoration: none;
 }
 .product-preview-image-front-image {
   width: auto;

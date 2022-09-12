@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -22,16 +23,46 @@ const Home = (props) => {
       <StartpageHeaderImage rootClassName="startpage-header-image-root-class-name"></StartpageHeaderImage>
       <TopicSeparator rootClassName="topic-separator-root-class-name1"></TopicSeparator>
       <ProductPreviewImageBackground rootClassName="product-preview-image-background-root-class-name"></ProductPreviewImageBackground>
-      <ProductPreviewImageBackground
-        description="What a beautiful desk lamp!"
-        productname="GlowLight"
-        rootClassName="product-preview-image-background-root-class-name1"
-      ></ProductPreviewImageBackground>
-      <ProductPreviewImageBackground
-        description="Looks great alone, as twins even better!"
-        productname="GlowTube"
-        rootClassName="product-preview-image-background-root-class-name2"
-      ></ProductPreviewImageBackground>
+      <div className="home-container1">
+        <div className="home-container2">
+          <span className="home-text">GlowLight</span>
+          <span className="home-text1">What a beautiful desk lamp!</span>
+          <div className="home-container3">
+            <Link to="/glow-light" className="home-navlink">
+              Learn more
+            </Link>
+            <a
+              href="https://shop.glowingkitty.com/products/glowlight"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link"
+            >
+              Buy
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="home-container4">
+        <div className="home-container5">
+          <span className="home-text2">GlowTube</span>
+          <span className="home-text3">
+            Looks great alone, as twins even better!
+          </span>
+          <div className="home-container6">
+            <Link to="/glow-tube" className="home-navlink1">
+              Learn more
+            </Link>
+            <a
+              href="https://shop.glowingkitty.com/products/glowtube"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link1"
+            >
+              Buy
+            </a>
+          </div>
+        </div>
+      </div>
       <TopicSeparator
         text="Or build your own projects!"
         rootClassName="topic-separator-root-class-name"

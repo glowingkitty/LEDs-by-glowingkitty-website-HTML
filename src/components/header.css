@@ -35,9 +35,13 @@
   display: flex;
   align-items: flex-start;
 }
+.header-navlink {
+  display: contents;
+}
 .header-image1 {
   width: 130x;
   object-fit: cover;
+  text-decoration: none;
 }
 .header-container3 {
   flex: 1;
@@ -48,15 +52,32 @@
   align-items: center;
   justify-content: flex-end;
 }
+.header-navlink1 {
+  transition: 0.3s;
+}
+
+.header-navlink2 {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.header-link {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+}
+
 .header-link1 {
   color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
 }
-.header-link2 {
-  color: rgba(255, 255, 255, 0.5);
-}
-.header-link3 {
-  color: rgba(255, 255, 255, 0.5);
-}
+
+
+
+
+
+
+
 
 @media(max-width: 767px) {
   .header-image {

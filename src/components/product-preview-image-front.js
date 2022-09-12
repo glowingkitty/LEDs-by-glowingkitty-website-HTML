@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -17,12 +18,17 @@ const ProductPreviewImageFront = (props) => {
           {props.description}
         </span>
         <div className="product-preview-image-front-container2">
-          <span className="product-preview-image-front-text2">
+          <Link to="/glow-core" className="product-preview-image-front-navlink">
             {props.cta1}
-          </span>
-          <span className="product-preview-image-front-text3">
+          </Link>
+          <a
+            href="http://shop.glowingkitty.com/products/glowcore"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="product-preview-image-front-link"
+          >
             {props.cta2}
-          </span>
+          </a>
         </div>
       </div>
       <img
@@ -40,7 +46,7 @@ ProductPreviewImageFront.defaultProps = {
   description: 'The easiest way to conrol LED strips!',
   image_alt: 'image',
   cta2: 'Buy',
-  image_src: '/playground_assets/glowcore-500h.png',
+  image_src: '/playground_assets/glowcore.png',
   cta1: 'Learn more',
 }
 
