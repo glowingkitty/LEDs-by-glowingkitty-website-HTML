@@ -11,7 +11,7 @@
   flex-direction: column;
   padding-bottom: 22px;
   justify-content: center;
-  background-color: #333232;
+  background-color: #181818;
 }
 .header-container1 {
   flex: 0 0 auto;
@@ -124,7 +124,7 @@
   flex-direction: column;
   padding-bottom: 60px;
   justify-content: center;
-  background-color:  rgba(37, 37, 37, 1);
+  background-color: #1c1c1c;
 }
 .topic-separator-text {
   color: #ffffff;
@@ -246,7 +246,7 @@
   padding-right: 46px;
   flex-direction: column;
   padding-bottom: 46px;
-  background-color: #303030;
+  background-color: #202020;
 }
 .meetup-list-container1 {
   flex: 0 0 auto;
@@ -355,6 +355,25 @@
     height: 340px;
   }
 }
+
+.need-help-with-a-project-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+  flex-direction: column;
+  padding-bottom: 45px;
+  background-color: var(--dl-color-gray-brightgray);
+}
+.need-help-with-a-project-text {
+  color: #ffffff;
+  font-family: Lexend Deca;
+}
+
 
 .home-container {
   width: 100%;
