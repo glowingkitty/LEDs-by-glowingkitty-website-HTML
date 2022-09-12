@@ -79,8 +79,13 @@
 .headermenulink {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
+  transition: 0.3s;
   font-family: Lexend Deca;
   padding-left: 87px;
+  text-decoration: none;
+}
+.headermenulink:active {
+  color: #ffffff;
 }
 .content {
   font-size: 16px;
