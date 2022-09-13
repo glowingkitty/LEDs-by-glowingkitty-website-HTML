@@ -14,10 +14,11 @@
 }
 .startpage-header-image-text {
   color: #ffffff;
-  font-size: 33px;
   max-width: 319px;
+  font-style: normal;
   text-align: center;
   font-family: Lexend Deca;
+  font-weight: 400;
 }
 .startpage-header-image-button {
   color: #ffffff;

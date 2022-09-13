@@ -3,7 +3,7 @@
   height: 400px;
   display: flex;
   position: relative;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 45px;
   padding-left: 45px;
   padding-right: 45px;
@@ -13,6 +13,58 @@
 }
 .need-help-with-a-project-text {
   color: #ffffff;
+  font-size: 22px;
+  font-family: Lexend Deca;
+  margin-bottom: 65px;
+}
+.need-help-with-a-project-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 675px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.need-help-with-a-project-container2 {
+  flex: 1;
+  width: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.need-help-with-a-project-text1 {
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-family: Lexend Deca;
+  font-weight: 700;
+}
+.need-help-with-a-project-text2 {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Lexend Deca;
+}
+.need-help-with-a-project-container3 {
+  flex: 1;
+  width: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.need-help-with-a-project-text3 {
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-family: Lexend Deca;
+  font-weight: 700;
+}
+.need-help-with-a-project-text4 {
+  color: #ffffff;
+  font-size: 14px;
   font-family: Lexend Deca;
 }
 

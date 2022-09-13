@@ -21,8 +21,8 @@ const Products = (props) => {
       </Helmet>
       <Header rootClassName="header-root-class-name1"></Header>
       <TopicSeparator
-        rootClassName="topic-separator-root-class-name2"
         text="Explore all products:"
+        rootClassName="topic-separator-root-class-name2"
       ></TopicSeparator>
       <ProductPreviewImageBackground rootClassName="product-preview-image-background-root-class-name1"></ProductPreviewImageBackground>
       <div className="products-container1">
