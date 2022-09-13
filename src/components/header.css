@@ -54,6 +54,7 @@
 }
 .header-navlink1 {
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .header-navlink2 {

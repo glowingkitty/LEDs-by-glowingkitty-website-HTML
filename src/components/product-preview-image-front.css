@@ -65,6 +65,9 @@
 .product-preview-image-front-root-class-name {
   height: auto;
 }
+.product-preview-image-front-root-class-name1 {
+  height: auto;
+}
 @media(max-width: 479px) {
   .product-preview-image-front-container {
     height: 558px;
