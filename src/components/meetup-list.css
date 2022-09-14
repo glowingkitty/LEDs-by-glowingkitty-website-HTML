@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  padding: 69px;
   position: relative;
   align-items: center;
   padding-top: 46px;
@@ -22,9 +23,9 @@
 }
 .meetup-list-text {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 30px;
   font-family: Lexend Deca;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .meetup-list-text1 {
   color: #ffffff;
@@ -41,9 +42,9 @@
 .meetup-list-image {
   width: 100px;
   height: 100px;
-  margin-top: 20px;
+  margin-top: 50px;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .meetup-list-link {
   display: contents;
