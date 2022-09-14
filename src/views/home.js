@@ -10,6 +10,7 @@ import ProductPreviewImageBackground from '../components/product-preview-image-b
 import MeetupList from '../components/meetup-list'
 import ProductPreviewImageFront from '../components/product-preview-image-front'
 import NeedHelpWithAProject from '../components/need-help-with-a-project'
+import ShowAllProducts from '../components/show-all-products'
 import './home.css'
 
 const Home = (props) => {
@@ -22,8 +23,8 @@ const Home = (props) => {
       <Header rootClassName="header-root-class-name"></Header>
       <StartpageHeaderImage rootClassName="startpage-header-image-root-class-name"></StartpageHeaderImage>
       <TopicSeparator
-        rootClassName="topic-separator-root-class-name1"
         text="Step 1: Build an LED lamp, with a DIY kit!"
+        rootClassName="topic-separator-root-class-name1"
       ></TopicSeparator>
       <ProductPreviewImageBackground rootClassName="product-preview-image-background-root-class-name"></ProductPreviewImageBackground>
       <div className="home-container1">
@@ -75,6 +76,7 @@ const Home = (props) => {
         <ProductPreviewImageFront rootClassName="product-preview-image-front-root-class-name"></ProductPreviewImageFront>
       </div>
       <NeedHelpWithAProject rootClassName="need-help-with-a-project-root-class-name"></NeedHelpWithAProject>
+      <ShowAllProducts rootClassName="show-all-products-root-class-name"></ShowAllProducts>
     </div>
   )
 }
