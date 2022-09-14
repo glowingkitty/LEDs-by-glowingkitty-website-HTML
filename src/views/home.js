@@ -21,7 +21,10 @@ const Home = (props) => {
       </Helmet>
       <Header rootClassName="header-root-class-name"></Header>
       <StartpageHeaderImage rootClassName="startpage-header-image-root-class-name"></StartpageHeaderImage>
-      <TopicSeparator rootClassName="topic-separator-root-class-name1"></TopicSeparator>
+      <TopicSeparator
+        rootClassName="topic-separator-root-class-name1"
+        text="Step 1: Build an LED lamp, with a DIY kit!"
+      ></TopicSeparator>
       <ProductPreviewImageBackground rootClassName="product-preview-image-background-root-class-name"></ProductPreviewImageBackground>
       <div className="home-container1">
         <div className="home-container2">
@@ -64,11 +67,13 @@ const Home = (props) => {
         </div>
       </div>
       <TopicSeparator
-        text="And then, build your own LED projects!"
+        text="Step 2: Build your own LED projects!"
         rootClassName="topic-separator-root-class-name"
       ></TopicSeparator>
-      <MeetupList rootClassName="meetup-list-root-class-name"></MeetupList>
-      <ProductPreviewImageFront rootClassName="product-preview-image-front-root-class-name"></ProductPreviewImageFront>
+      <div className="home-container7">
+        <MeetupList rootClassName="meetup-list-root-class-name"></MeetupList>
+        <ProductPreviewImageFront rootClassName="product-preview-image-front-root-class-name"></ProductPreviewImageFront>
+      </div>
       <NeedHelpWithAProject rootClassName="need-help-with-a-project-root-class-name"></NeedHelpWithAProject>
     </div>
   )

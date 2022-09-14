@@ -130,11 +130,20 @@
   padding-bottom: 10px;
   text-decoration: none;
 }
+.home-container7 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
 @media(max-width: 479px) {
   .home-container1 {
     height: 558px;
   }
   .home-container4 {
     height: 558px;
+  }
+  .home-container7 {
+    flex-direction: column;
   }
 }
