@@ -25,8 +25,8 @@ const MeetupList = (props) => {
         className="meetup-list-link"
       >
         <MainCTAButton
-          rootClassName="main-c-t-a-button-root-class-name"
           header_cta="Join us on Meetup"
+          rootClassName="main-c-t-a-button-root-class-name"
           className="meetup-list-component"
         ></MainCTAButton>
       </a>

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './style.css'
 import About from './views/about'
 import GlowTower from './views/glow-tower'
+import Demo from './views/demo'
 import GlowCore from './views/glow-core'
 import GlowTube from './views/glow-tube'
 import Products from './views/products'
@@ -17,6 +18,7 @@ const App = () => {
       <div>
         <Route component={About} exact path="/about" />
         <Route component={GlowTower} exact path="/glow-tower" />
+        <Route component={Demo} exact path="/demo" />
         <Route component={GlowCore} exact path="/glow-core" />
         <Route component={GlowTube} exact path="/glow-tube" />
         <Route component={Products} exact path="/products" />
