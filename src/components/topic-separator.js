@@ -14,7 +14,7 @@ const TopicSeparator = (props) => {
 
 TopicSeparator.defaultProps = {
   rootClassName: '',
-  text: 'Discover your passion for electronics: with a DIY kit!',
+  text: 'Learn how to build an LED lamp: with a DIY kit!',
 }
 
 TopicSeparator.propTypes = {

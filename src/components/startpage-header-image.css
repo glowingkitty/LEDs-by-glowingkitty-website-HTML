@@ -8,31 +8,18 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("/playground_assets/backgroundimage.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0.00%,rgba(0, 0, 0, 0.3) 100.00%),url("/playground_assets/backgroundimage.jpeg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .startpage-header-image-text {
   color: #ffffff;
-  max-width: 319px;
+  max-width: 370px;
   font-style: normal;
   text-align: center;
   font-family: Lexend Deca;
   font-weight: 400;
-}
-.startpage-header-image-button {
-  color: #ffffff;
-  font-size: 20px;
-  background: linear-gradient(148.99deg, #C60000 11.01%, #B600C6 90.18%); ;
-  box-shadow: 5px 5px 10px 0px #000000;
-  margin-top: 57px;
-  font-family: Lexend Deca;
-  padding-top: 10px;
-  border-width: 0px;
-  padding-left: 20px;
-  border-radius: 10px;
-  padding-right: Space-HalfUnit;
-  padding-bottom: 10px;
+  margin-bottom: 40px;
 }
 .startpage-header-image-root-class-name {
   height: 80vh;

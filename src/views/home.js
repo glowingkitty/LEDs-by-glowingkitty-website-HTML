@@ -64,7 +64,7 @@ const Home = (props) => {
         </div>
       </div>
       <TopicSeparator
-        text="Or build your own projects!"
+        text="And then, build your own LED projects!"
         rootClassName="topic-separator-root-class-name"
       ></TopicSeparator>
       <MeetupList rootClassName="meetup-list-root-class-name"></MeetupList>
