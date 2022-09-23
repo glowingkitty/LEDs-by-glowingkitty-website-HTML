@@ -22,6 +22,7 @@
   --dl-color-success-700: #4CC366;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
+  --dl-color-gray-darkgrey: #181818ff;
   --dl-radius-radius-round: 50%;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
@@ -86,6 +87,19 @@
 }
 .headermenulink:active {
   color: #ffffff;
+}
+.socialmedia_icon {
+  width: 45px;
+  height: 45px;
+  opacity: 0.5;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-left: 9px;
+  margin-right: 9px;
+  text-decoration: none;
+}
+.socialmedia_icon:hover {
+  opacity: 1;
 }
 .content {
   font-size: 16px;

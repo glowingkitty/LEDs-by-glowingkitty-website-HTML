@@ -11,6 +11,8 @@ import MeetupList from '../components/meetup-list'
 import ProductPreviewImageFront from '../components/product-preview-image-front'
 import NeedHelpWithAProject from '../components/need-help-with-a-project'
 import ShowAllProducts from '../components/show-all-products'
+import FooterSocial from '../components/footer-social'
+import FooterWebLinks from '../components/footer-web-links'
 import './home.css'
 
 const Home = (props) => {
@@ -77,6 +79,8 @@ const Home = (props) => {
       </div>
       <NeedHelpWithAProject rootClassName="need-help-with-a-project-root-class-name"></NeedHelpWithAProject>
       <ShowAllProducts rootClassName="show-all-products-root-class-name"></ShowAllProducts>
+      <FooterSocial rootClassName="footer-social-root-class-name"></FooterSocial>
+      <FooterWebLinks rootClassName="footer-web-links-root-class-name"></FooterWebLinks>
     </div>
   )
 }
