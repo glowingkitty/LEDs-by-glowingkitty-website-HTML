@@ -20,7 +20,7 @@ const ProductPreviewImageBackground = (props) => {
         <div className="product-preview-image-background-container2">
           <Link
             to="/glow-tower"
-            className="product-preview-image-background-navlink"
+            className="product-preview-image-background-navlink product_promoteblock_link"
           >
             {props.cta1}
           </Link>
@@ -28,7 +28,7 @@ const ProductPreviewImageBackground = (props) => {
             href="https://shop.glowingkitty.com/products/glowtower"
             target="_blank"
             rel="noreferrer noopener"
-            className="product-preview-image-background-link"
+            className="product-preview-image-background-link product_promoteblock_link"
           >
             {props.cta2}
           </a>
@@ -42,7 +42,7 @@ ProductPreviewImageBackground.defaultProps = {
   rootClassName: '',
   productname: 'GlowTower',
   cta1: 'Learn more',
-  cta2: 'Buy',
+  cta2: 'Show prices',
   description: 'Set the mood for your whole room!',
 }
 

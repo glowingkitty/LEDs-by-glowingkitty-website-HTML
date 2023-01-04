@@ -18,14 +18,17 @@ const ProductPreviewImageFront = (props) => {
           {props.description}
         </span>
         <div className="product-preview-image-front-container2">
-          <Link to="/glow-core" className="product-preview-image-front-navlink">
+          <Link
+            to="/glow-core"
+            className="product-preview-image-front-navlink product_promoteblock_link"
+          >
             {props.cta1}
           </Link>
           <a
             href="http://shop.glowingkitty.com/products/glowcore"
             target="_blank"
             rel="noreferrer noopener"
-            className="product-preview-image-front-link"
+            className="product_promoteblock_link"
           >
             {props.cta2}
           </a>
@@ -43,10 +46,10 @@ const ProductPreviewImageFront = (props) => {
 ProductPreviewImageFront.defaultProps = {
   productname: 'GlowCore',
   rootClassName: '',
-  description: 'The easiest way to conrol LED strips!',
+  description: 'The easiest way to control LED strips!',
   image_alt: 'image',
-  cta2: 'Buy',
-  image_src: '/playground_assets/glowcore.png',
+  cta2: 'Show prices',
+  image_src: '/playground_assets/glowcore-500h.png',
   cta1: 'Learn more',
 }
 

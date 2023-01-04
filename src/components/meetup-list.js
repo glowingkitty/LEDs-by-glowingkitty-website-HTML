@@ -2,7 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import MainCTAButton from './main-c-t-a-button'
 import './meetup-list.css'
 
 const MeetupList = (props) => {
@@ -13,23 +12,12 @@ const MeetupList = (props) => {
         <span className="meetup-list-text1">{props.text}</span>
         <span className="meetup-list-text2">{props.text1}</span>
       </div>
+      <button className="button">{props.button}</button>
       <img
         alt={props.image_alt}
         src={props.image_src}
         className="meetup-list-image"
       />
-      <a
-        href="https://meetup.com"
-        target="_blank"
-        rel="noreferrer noopener"
-        className="meetup-list-link"
-      >
-        <MainCTAButton
-          header_cta="Join us on Meetup"
-          rootClassName="main-c-t-a-button-root-class-name"
-          className="meetup-list-component"
-        ></MainCTAButton>
-      </a>
     </div>
   )
 }
@@ -37,6 +25,7 @@ const MeetupList = (props) => {
 MeetupList.defaultProps = {
   text1: 'From total beginner to advanced.',
   text: 'Workshops, talks and more.',
+  button: 'Join on Meetup',
   headline: 'Join our events',
   image_alt: 'image',
   rootClassName: '',
@@ -46,6 +35,7 @@ MeetupList.defaultProps = {
 MeetupList.propTypes = {
   text1: PropTypes.string,
   text: PropTypes.string,
+  button: PropTypes.string,
   headline: PropTypes.string,
   image_alt: PropTypes.string,
   rootClassName: PropTypes.string,

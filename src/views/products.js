@@ -39,7 +39,7 @@ const Products = (props) => {
               rel="noreferrer noopener"
               className="products-link"
             >
-              Buy
+              Show prices
             </a>
           </div>
         </div>
@@ -60,7 +60,7 @@ const Products = (props) => {
               rel="noreferrer noopener"
               className="products-link1"
             >
-              Buy
+              Show prices
             </a>
           </div>
         </div>

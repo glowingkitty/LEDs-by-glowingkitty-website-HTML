@@ -24,22 +24,22 @@ const Header = (props) => {
           </Link>
         </div>
         <div className="header-container3">
-          <Link to="/products" className="header-navlink1 headermenulink">
+          <Link to="/products" className="headermenulink">
             {props.link2}
           </Link>
           <a
-            href={props.link41}
+            href="https://workshops.glowingkitty.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="header-link headermenulink"
+            className="headermenulink"
           >
             {props.link3}
           </a>
           <a
-            href={props.link_text11}
+            href="https://example.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="header-link1 headermenulink"
+            className="headermenulink"
           >
             {props.link4}
           </a>
@@ -47,10 +47,10 @@ const Header = (props) => {
             {props.link1}
           </Link>
           <a
-            href="http://medium.com/@glowingkitty"
+            href="https://blog.glowingkitty.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="header-link2 headermenulink"
+            className="headermenulink"
           >
             {props.link21}
           </a>

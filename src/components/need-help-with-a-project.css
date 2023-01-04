@@ -57,12 +57,6 @@
   object-fit: cover;
   margin-bottom: 31px;
 }
-.need-help-with-a-project-link {
-  display: contents;
-}
-.need-help-with-a-project-component {
-  text-decoration: none;
-}
 .need-help-with-a-project-container3 {
   flex: 1;
   width: auto;
@@ -92,12 +86,6 @@
   margin-top: 31px;
   object-fit: cover;
   margin-bottom: 31px;
-}
-.need-help-with-a-project-link1 {
-  display: contents;
-}
-.need-help-with-a-project-component1 {
-  text-decoration: none;
 }
 
 @media(max-width: 767px) {

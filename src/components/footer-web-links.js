@@ -36,23 +36,23 @@ const FooterWebLinks = (props) => {
 }
 
 FooterWebLinks.defaultProps = {
-  text: 'Imprint',
-  link_text: 'https://example.com',
   text1: 'Privacy',
-  link_text1: 'https://example.com',
-  text11: 'Support',
-  link_text11: 'https://example.com',
   rootClassName: '',
+  link_text11: 'https://example.com',
+  link_text1: 'https://example.com',
+  link_text: 'https://example.com',
+  text: 'Imprint',
+  text11: 'Support',
 }
 
 FooterWebLinks.propTypes = {
-  text: PropTypes.string,
-  link_text: PropTypes.string,
   text1: PropTypes.string,
-  link_text1: PropTypes.string,
-  text11: PropTypes.string,
-  link_text11: PropTypes.string,
   rootClassName: PropTypes.string,
+  link_text11: PropTypes.string,
+  link_text1: PropTypes.string,
+  link_text: PropTypes.string,
+  text: PropTypes.string,
+  text11: PropTypes.string,
 }
 
 export default FooterWebLinks

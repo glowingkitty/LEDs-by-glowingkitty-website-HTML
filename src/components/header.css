@@ -4,6 +4,7 @@
   display: flex;
   z-index: 1;
   position: fixed;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.95);
   align-items: flex-start;
   padding-top: 22px;
   padding-left: 22px;
@@ -40,8 +41,16 @@
 }
 .header-image1 {
   width: 130x;
+  opacity: 0.5;
   object-fit: cover;
+  transition: 0.3s;
   text-decoration: none;
+}
+.header-image1:hover {
+  opacity: 1;
+}
+.header-image1:active {
+  opacity: 1;
 }
 .header-container3 {
   flex: 1;
@@ -52,32 +61,9 @@
   align-items: center;
   justify-content: flex-end;
 }
-.header-navlink1 {
-  color: rgba(255, 255, 255, 0.5);
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-.header-link {
-  color: rgba(255, 255, 255, 0.5);
-  transition: 0.3s;
-}
-
-.header-link1 {
-  color: rgba(255, 255, 255, 0.5);
-  transition: 0.3s;
-}
-
 .header-navlink2 {
-  transition: 0.3s;
   text-decoration: none;
 }
-
-.header-link2 {
-  transition: 0.3s;
-  text-decoration: none;
-}
-
 
 
 

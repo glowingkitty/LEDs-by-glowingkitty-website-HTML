@@ -18,6 +18,7 @@
   display: flex;
   max-width: 330px;
   align-items: center;
+  margin-bottom: 20px;
   flex-direction: column;
 }
 .meetup-list-text {
@@ -45,13 +46,9 @@
   object-fit: cover;
   margin-bottom: 50px;
 }
-.meetup-list-link {
-  display: contents;
+.meetup-list-root-class-name {
+  width: 50%;
 }
-.meetup-list-component {
-  text-decoration: none;
-}
-
 @media(max-width: 767px) {
   .meetup-list-container {
     padding-top: 45px;
