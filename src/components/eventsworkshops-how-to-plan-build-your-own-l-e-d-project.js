@@ -23,16 +23,16 @@ const EventsworkshopsHowToPlanBuildYourOwnLEDProject = (props) => {
 }
 
 EventsworkshopsHowToPlanBuildYourOwnLEDProject.defaultProps = {
+  text1: 'How to plan & build your own LED project',
   rootClassName: '',
   text: 'Beginner workshop -',
-  text1: 'How to plan & build your own LED project',
   text11: 'at xHain hack & makespace',
 }
 
 EventsworkshopsHowToPlanBuildYourOwnLEDProject.propTypes = {
+  text1: PropTypes.string,
   rootClassName: PropTypes.string,
   text: PropTypes.string,
-  text1: PropTypes.string,
   text11: PropTypes.string,
 }
 

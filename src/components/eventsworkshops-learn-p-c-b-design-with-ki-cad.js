@@ -24,16 +24,16 @@ const EventsworkshopsLearnPCBDesignWithKiCad = (props) => {
 
 EventsworkshopsLearnPCBDesignWithKiCad.defaultProps = {
   rootClassName: '',
-  text: 'Beginner workshop -',
   text1: 'Learn PCB design with KiCad',
   text11: 'at xHain hack & makespace',
+  text: 'Beginner workshop -',
 }
 
 EventsworkshopsLearnPCBDesignWithKiCad.propTypes = {
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
   text1: PropTypes.string,
   text11: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default EventsworkshopsLearnPCBDesignWithKiCad

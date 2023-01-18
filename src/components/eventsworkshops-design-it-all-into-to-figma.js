@@ -24,16 +24,16 @@ const EventsworkshopsDesignItAllIntoToFigma = (props) => {
 
 EventsworkshopsDesignItAllIntoToFigma.defaultProps = {
   rootClassName: '',
+  text11: 'at xHain hack & makespace',
   text: 'Beginner workshop -',
   text1: 'Design it all. Intro to Figma',
-  text11: 'at xHain hack & makespace',
 }
 
 EventsworkshopsDesignItAllIntoToFigma.propTypes = {
   rootClassName: PropTypes.string,
+  text11: PropTypes.string,
   text: PropTypes.string,
   text1: PropTypes.string,
-  text11: PropTypes.string,
 }
 
 export default EventsworkshopsDesignItAllIntoToFigma
