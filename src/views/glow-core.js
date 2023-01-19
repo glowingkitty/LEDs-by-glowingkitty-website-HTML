@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
 import './glow-core.css'
 
 const GlowCore = (props) => {
@@ -12,7 +11,6 @@ const GlowCore = (props) => {
         <title>GlowCore - LEDs by glowingkitty</title>
         <meta property="og:title" content="GlowCore - LEDs by glowingkitty" />
       </Helmet>
-      <Header rootClassName="header-root-class-name5"></Header>
     </div>
   )
 }

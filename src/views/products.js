@@ -16,7 +16,7 @@ const Products = (props) => {
         <title>Products - LEDs by glowingkitty</title>
         <meta property="og:title" content="Products - LEDs by glowingkitty" />
       </Helmet>
-      <Header rootClassName="header-root-class-name1"></Header>
+      <Header></Header>
       <TopicSeparator
         text="Explore all products:"
         rootClassName="topic-separator-root-class-name2"
