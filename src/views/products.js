@@ -13,11 +13,8 @@ const Products = (props) => {
   return (
     <div className="products-container">
       <Helmet>
-        <title>Products - LEDs by glowingkitty - website</title>
-        <meta
-          property="og:title"
-          content="Products - LEDs by glowingkitty - website"
-        />
+        <title>Products - LEDs by glowingkitty</title>
+        <meta property="og:title" content="Products - LEDs by glowingkitty" />
       </Helmet>
       <Header rootClassName="header-root-class-name1"></Header>
       <TopicSeparator

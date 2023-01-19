@@ -9,11 +9,8 @@ const About = (props) => {
   return (
     <div className="about-container">
       <Helmet>
-        <title>About - LEDs by glowingkitty - website</title>
-        <meta
-          property="og:title"
-          content="About - LEDs by glowingkitty - website"
-        />
+        <title>About - LEDs by glowingkitty</title>
+        <meta property="og:title" content="About - LEDs by glowingkitty" />
       </Helmet>
       <Header rootClassName="header-root-class-name2"></Header>
     </div>

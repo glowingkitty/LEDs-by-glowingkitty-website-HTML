@@ -9,8 +9,8 @@ import GlowCore from './views/glow-core'
 import GlowTube from './views/glow-tube'
 import Products from './views/products'
 import GlowLight from './views/glow-light'
-import Home from './views/home'
 import Help from './views/help'
+import Home from './views/home'
 
 const App = () => {
   return (
@@ -22,8 +22,8 @@ const App = () => {
         <Route component={GlowTube} exact path="/glow-tube" />
         <Route component={Products} exact path="/products" />
         <Route component={GlowLight} exact path="/glow-light" />
-        <Route component={Home} exact path="/" />
         <Route component={Help} exact path="/help" />
+        <Route component={Home} exact path="/" />
       </div>
     </Router>
   )

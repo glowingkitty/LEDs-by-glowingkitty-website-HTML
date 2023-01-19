@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>LEDs by glowingkitty - website</title>
+    <title>LEDs by glowingkitty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -48,6 +48,10 @@
           transform: rotate(90deg);
         }
     </style>
+
+    <script>
+      $crisp.push(["safe", true]);
+    </script>
   </head>
   <body>
     <div id="app"></div>
@@ -57,5 +61,21 @@
       data-section-id="navbar"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
+
+    <script>
+      window.onload = function() {
+          const burgericon = document.querySelector("#burgericon");
+          const menu_mobile = document.querySelector("#menu_mobile");
+          burgericon.addEventListener("click", function(){
+              if(menu_mobile.style.height === "auto" && menu_mobile.style.paddingTop === "20px"){
+                  menu_mobile.style.height = "0px";
+                  menu_mobile.style.paddingTop = "0px";
+              }else{
+                  menu_mobile.style.height = "auto";
+                  menu_mobile.style.paddingTop = "20px";
+              }
+          });
+      }
+    </script>
   </body>
 </html>

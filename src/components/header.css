@@ -64,25 +64,9 @@
 .header-navlink2 {
   text-decoration: none;
 }
-.header-container4 {
-  flex: 1;
-  width: auto;
-  height: 100%;
-  display: none;
-  overflow: hidden;
-  align-self: center;
-  transition: 0.3s;
-  align-items: center;
-  justify-content: flex-end;
-}
-.header-container4:active {
-  height: auto;
-  padding-top: 20px;
-}
 .header-navlink4 {
   text-decoration: none;
 }
-
 
 
 
@@ -102,12 +86,6 @@
     display: none;
   }
   .header-container4 {
-    flex: 0 0 auto;
     height: 0px;
-    display: flex;
-    align-self: stretch;
-    align-items: stretch;
-    padding-top: 0px;
-    flex-direction: column;
   }
 }

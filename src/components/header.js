@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 import './header.css'
@@ -11,9 +10,9 @@ const Header = (props) => {
     <div className={`header-container ${props.rootClassName} `}>
       <div className="header-container1">
         <img
+          id="burgericon"
           alt={props.image_alt2}
           src={props.image_src2}
-          id="burgericon"
           className="header-image"
         />
         <div className="header-container2">
@@ -58,7 +57,7 @@ const Header = (props) => {
           </a>
         </div>
       </div>
-      <div id="menu_mobile" className="header-container4">
+      <div id="menu_mobile" className="mobilemenu header-container4">
         <Link to="/products" className="headermenulink mobile">
           {props.link22}
         </Link>
@@ -90,64 +89,52 @@ const Header = (props) => {
           {props.link211}
         </a>
       </div>
-      <div className="">
-        <DangerousHTML
-          html={`<script>
-    const burgericon = document.getElementById("burgericon");
-    const menu_mobile = document.getElementById("menu_mobile");
-    burgericon.addEventListener("click", function(){
-        menu_mobile.classList.toggle("active");
-    });
-</script>`}
-          className=""
-        ></DangerousHTML>
-      </div>
     </div>
   )
 }
 
 Header.defaultProps = {
+  link1: 'About',
+  link11: 'About',
+  link42: 'Get help',
   link41: 'https://example.com',
+  image_src2: '/playground_assets/menu.svg',
+  link211: 'Blog',
+  link4: 'Get help',
   link_text11: 'https://example.com',
   image_src1: '/playground_assets/logo1.svg',
   link_text1: 'https://example.com',
   rootClassName: '',
-  link_text: 'https://example.com',
-  image_alt1: 'image',
-  link2: 'Products',
-  link3: 'Workshops',
   link21: 'Blog',
-  link4: 'Get help',
-  link1: 'About',
-  image_alt2: 'image',
-  image_src2: '/playground_assets/menu.svg',
+  link3: 'Workshops',
   link22: 'Products',
+  image_alt2: 'image',
   link31: 'Workshops',
-  link42: 'Get help',
-  link11: 'About',
-  link211: 'Blog',
+  link_text: 'https://example.com',
+  link2: 'Products',
+  image_alt1: 'image',
 }
 
 Header.propTypes = {
+  link1: PropTypes.string,
+  link11: PropTypes.string,
+  link42: PropTypes.string,
   link41: PropTypes.string,
+  image_src2: PropTypes.string,
+  link211: PropTypes.string,
+  link4: PropTypes.string,
   link_text11: PropTypes.string,
   image_src1: PropTypes.string,
   link_text1: PropTypes.string,
   rootClassName: PropTypes.string,
-  link_text: PropTypes.string,
-  image_alt1: PropTypes.string,
-  link2: PropTypes.string,
-  link3: PropTypes.string,
   link21: PropTypes.string,
-  link4: PropTypes.string,
-  link1: PropTypes.string,
-  image_alt2: PropTypes.string,
-  image_src2: PropTypes.string,
+  link3: PropTypes.string,
   link22: PropTypes.string,
+  image_alt2: PropTypes.string,
   link31: PropTypes.string,
-  link42: PropTypes.string,
-  link11: PropTypes.string,
-  link211: PropTypes.string,
+  link_text: PropTypes.string,
+  link2: PropTypes.string,
+  image_alt1: PropTypes.string,
 }
 
 export default Header

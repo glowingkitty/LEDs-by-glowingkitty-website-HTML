@@ -9,11 +9,8 @@ const GlowCore = (props) => {
   return (
     <div className="glow-core-container">
       <Helmet>
-        <title>GlowCore - LEDs by glowingkitty - website</title>
-        <meta
-          property="og:title"
-          content="GlowCore - LEDs by glowingkitty - website"
-        />
+        <title>GlowCore - LEDs by glowingkitty</title>
+        <meta property="og:title" content="GlowCore - LEDs by glowingkitty" />
       </Helmet>
       <Header rootClassName="header-root-class-name5"></Header>
     </div>
