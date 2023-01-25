@@ -6,18 +6,13 @@ import './eventsworkshops-how-to-plan-build-your-own-l-e-d-project.css'
 
 const EventsworkshopsHowToPlanBuildYourOwnLEDProject = (props) => {
   return (
-    <div
-      className={`eventsworkshops-how-to-plan-build-your-own-l-e-d-project-container ${props.rootClassName} `}
-    >
-      <span className="eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text">
-        {props.text}
-      </span>
-      <span className="eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text1">
+    <div className="eventblockpreview">
+      <span className="eventblockh1">{props.text}</span>
+      <span className="eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text1 eventblockh1">
         {props.text1}
       </span>
-      <span className="eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text2">
-        {props.text11}
-      </span>
+      <span className="eventblockh2">{props.text11}</span>
+      <div className="eventblockgradient"></div>
     </div>
   )
 }

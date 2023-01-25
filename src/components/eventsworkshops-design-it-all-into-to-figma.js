@@ -7,17 +7,18 @@ import './eventsworkshops-design-it-all-into-to-figma.css'
 const EventsworkshopsDesignItAllIntoToFigma = (props) => {
   return (
     <div
-      className={`eventsworkshops-design-it-all-into-to-figma-container ${props.rootClassName} `}
+      className={`eventsworkshops-design-it-all-into-to-figma-container eventblockpreview ${props.rootClassName} `}
     >
-      <span className="eventsworkshops-design-it-all-into-to-figma-text">
+      <span className="eventsworkshops-design-it-all-into-to-figma-text eventblockh1">
         {props.text}
       </span>
-      <span className="eventsworkshops-design-it-all-into-to-figma-text1">
+      <span className="eventsworkshops-design-it-all-into-to-figma-text1 eventblockh1">
         {props.text1}
       </span>
-      <span className="eventsworkshops-design-it-all-into-to-figma-text2">
+      <span className="eventsworkshops-design-it-all-into-to-figma-text2 eventblockh2">
         {props.text11}
       </span>
+      <div className="eventblockgradient"></div>
     </div>
   )
 }

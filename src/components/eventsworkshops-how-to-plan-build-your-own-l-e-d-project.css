@@ -1,34 +1,11 @@
-.eventsworkshops-how-to-plan-build-your-own-l-e-d-project-container {
-  width: 340px;
-  height: 190px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  padding-top: 20px;
-  padding-left: 20px;
-  border-radius: 10px;
-  padding-right: 120px;
-  flex-direction: column;
-  padding-bottom: 20px;
-  background-size: cover;
-  justify-content: flex-end;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0.00%,rgba(0, 0, 0, 0.9) 99.00%),url("/playground_assets/xhain%201-400w.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text {
-  color: #ffffff;
-  font-size: 19px;
-  font-family: Lexend Deca;
-}
 .eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text1 {
   color: #ffffff;
-  font-size: 19px;
-  font-family: Lexend Deca;
-}
-.eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text2 {
-  color: #9a9a9a;
-  font-size: 10px;
+  font-size: 25px;
   font-family: Lexend Deca;
 }
 
+@media(max-width: 991px) {
+  .eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text1 {
+    font-size: 17px;
+  }
+}

@@ -45,8 +45,9 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
+  margin-top: 20px;
   align-items: flex-end;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   justify-content: center;
 }
 .meetup-list-container03 {
@@ -62,7 +63,7 @@
   display: flex;
   z-index: 3;
   align-items: flex-start;
-  margin-left: -90px;
+  margin-left: -200px;
   margin-bottom: 30px;
   flex-direction: column;
 }
@@ -72,8 +73,8 @@
   z-index: 5;
   margin-top: 60px;
   align-items: flex-start;
-  margin-left: -50px;
-  margin-right: -50px;
+  margin-left: -120px;
+  margin-right: -120px;
   flex-direction: column;
 }
 .meetup-list-container06 {
@@ -81,7 +82,7 @@
   display: flex;
   z-index: 3;
   align-items: flex-start;
-  margin-right: -90px;
+  margin-right: -200px;
   margin-bottom: 30px;
   flex-direction: column;
 }
@@ -118,6 +119,12 @@
 .meetup-list-root-class-name {
   width: 100%;
   height: auto;
+}
+@media(max-width: 1200px) {
+  .meetup-list-container05 {
+    margin-left: -210px;
+    margin-right: -210px;
+  }
 }
 @media(max-width: 991px) {
   .meetup-list-container04 {

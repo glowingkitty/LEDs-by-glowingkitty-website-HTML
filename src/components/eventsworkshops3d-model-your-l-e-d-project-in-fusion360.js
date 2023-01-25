@@ -7,17 +7,18 @@ import './eventsworkshops3d-model-your-l-e-d-project-in-fusion360.css'
 const Eventsworkshops3DModelYourLEDProjectInFusion360 = (props) => {
   return (
     <div
-      className={`eventsworkshops3d-model-your-l-e-d-project-in-fusion360-container ${props.rootClassName} `}
+      className={`eventsworkshops3d-model-your-l-e-d-project-in-fusion360-container eventblockpreview ${props.rootClassName} `}
     >
-      <span className="eventsworkshops3d-model-your-l-e-d-project-in-fusion360-text">
+      <span className="eventsworkshops3d-model-your-l-e-d-project-in-fusion360-text eventblockh1">
         {props.text}
       </span>
-      <span className="eventsworkshops3d-model-your-l-e-d-project-in-fusion360-text1">
+      <span className="eventsworkshops3d-model-your-l-e-d-project-in-fusion360-text1 eventblockh1">
         {props.text1}
       </span>
-      <span className="eventsworkshops3d-model-your-l-e-d-project-in-fusion360-text2">
+      <span className="eventsworkshops3d-model-your-l-e-d-project-in-fusion360-text2 eventblockh2">
         {props.text11}
       </span>
+      <div className="eventblockgradient"></div>
     </div>
   )
 }

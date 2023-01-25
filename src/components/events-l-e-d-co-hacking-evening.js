@@ -7,14 +7,15 @@ import './events-l-e-d-co-hacking-evening.css'
 const EventsLEDCoHackingEvening = (props) => {
   return (
     <div
-      className={`events-l-e-d-co-hacking-evening-container ${props.rootClassName} `}
+      className={`events-l-e-d-co-hacking-evening-container eventblockpreview ${props.rootClassName} `}
     >
-      <span className="events-l-e-d-co-hacking-evening-text">
+      <span className="events-l-e-d-co-hacking-evening-text eventblockh1">
         {props.text1}
       </span>
-      <span className="events-l-e-d-co-hacking-evening-text1">
+      <span className="events-l-e-d-co-hacking-evening-text1 eventblockh2">
         {props.text11}
       </span>
+      <div className="eventblockgradient"></div>
     </div>
   )
 }

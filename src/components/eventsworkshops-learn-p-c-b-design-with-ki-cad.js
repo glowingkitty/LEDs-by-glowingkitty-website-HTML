@@ -6,34 +6,27 @@ import './eventsworkshops-learn-p-c-b-design-with-ki-cad.css'
 
 const EventsworkshopsLearnPCBDesignWithKiCad = (props) => {
   return (
-    <div
-      className={`eventsworkshops-learn-p-c-b-design-with-ki-cad-container ${props.rootClassName} `}
-    >
-      <span className="eventsworkshops-learn-p-c-b-design-with-ki-cad-text">
-        {props.text}
-      </span>
-      <span className="eventsworkshops-learn-p-c-b-design-with-ki-cad-text1">
-        {props.text1}
-      </span>
-      <span className="eventsworkshops-learn-p-c-b-design-with-ki-cad-text2">
-        {props.text11}
-      </span>
+    <div className="eventsworkshops-learn-p-c-b-design-with-ki-cad-container eventblockpreview">
+      <span className="eventblockh1">{props.text}</span>
+      <span className="eventblockh1">{props.text2}</span>
+      <span className="eventblockh2">{props.text11}</span>
+      <div className="eventblockgradient"></div>
     </div>
   )
 }
 
 EventsworkshopsLearnPCBDesignWithKiCad.defaultProps = {
   rootClassName: '',
-  text1: 'Learn PCB design with KiCad',
   text11: 'at xHain hack & makespace',
   text: 'Beginner workshop -',
+  text2: 'Learn PCB design with KiCad',
 }
 
 EventsworkshopsLearnPCBDesignWithKiCad.propTypes = {
   rootClassName: PropTypes.string,
-  text1: PropTypes.string,
   text11: PropTypes.string,
   text: PropTypes.string,
+  text2: PropTypes.string,
 }
 
 export default EventsworkshopsLearnPCBDesignWithKiCad

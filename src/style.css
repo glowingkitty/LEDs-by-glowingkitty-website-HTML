@@ -161,6 +161,53 @@
 .mobilemenuheader {
   margin-bottom: var(--dl-space-space-unit);
 }
+.eventblockpreview {
+  width: 510px;
+  height: 285px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  padding-right: 150px;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url("/playground_assets/xhain%201-600w.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.eventblockgradient {
+  top: 0px;
+  flex: 1;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  align-items: flex-start;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0.00%,rgba(0, 0, 0, 0.25) 100.00%);
+}
+.eventblockh1 {
+  color: #ffffff;
+  z-index: 2;
+  font-size: 25px;
+  font-family: Lexend Deca;
+}
+.eventblockh2 {
+  color: #9a9a9a;
+  z-index: 2;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: Lexend Deca;
+}
 .Content {
   font-size: 16px;
   font-family: Inter;
@@ -178,7 +225,23 @@
   text-decoration: none;
 }
 
-
+@media(max-width: 991px) {
+  .eventblockpreview {
+    width: 340px;
+    height: 190px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 90px;
+    padding-bottom: 15px;
+  }
+  .eventblockh1 {
+    font-size: 17px;
+  }
+  .eventblockh2 {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
 @media(max-width: 767px) {
   .headermenulink {
     margin-left: var(--dl-space-space-unit);
