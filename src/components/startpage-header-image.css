@@ -8,7 +8,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0.00%,rgba(0, 0, 0, 0.3) 100.00%),url("/playground_assets/backgroundimage.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0.00%,rgba(0, 0, 0, 0.3) 100.00%),url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-repeat: no-repeat;
   background-position: center;
 }

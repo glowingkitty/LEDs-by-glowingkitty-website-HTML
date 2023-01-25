@@ -162,8 +162,8 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .eventblockpreview {
-  width: 510px;
-  height: 285px;
+  width: 459px;
+  height: 256px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -198,13 +198,13 @@
 .eventblockh1 {
   color: #ffffff;
   z-index: 2;
-  font-size: 25px;
+  font-size: 22px;
   font-family: Lexend Deca;
 }
 .eventblockh2 {
   color: #9a9a9a;
   z-index: 2;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 10px;
   font-family: Lexend Deca;
 }
