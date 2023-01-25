@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -18,17 +17,19 @@ const ProductPreviewImageFront = (props) => {
           {props.description}
         </span>
         <div className="product-preview-image-front-container2">
-          <Link
-            to="/glow-core"
-            className="product-preview-image-front-navlink product_promoteblock_link"
+          <a
+            href="https://shop.glowingkitty.com/products/glowcore"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="product-preview-image-front-link product_promoteblock_link"
           >
             {props.cta1}
-          </Link>
+          </a>
           <a
             href="http://shop.glowingkitty.com/products/glowcore"
             target="_blank"
             rel="noreferrer noopener"
-            className="product_promoteblock_link"
+            className="product-preview-image-front-link1 product_promoteblock_link"
           >
             {props.cta2}
           </a>

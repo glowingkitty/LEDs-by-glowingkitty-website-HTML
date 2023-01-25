@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import TopicSeparator from '../components/topic-separator'
-import ProductPreviewImageBackground from '../components/product-preview-image-background'
+import Productbannerglowtower from '../components/productbannerglowtower'
 import ProductPreviewImageFront from '../components/product-preview-image-front'
 import './products.css'
 
@@ -21,7 +21,7 @@ const Products = (props) => {
         text="Explore all products:"
         rootClassName="topic-separator-root-class-name2"
       ></TopicSeparator>
-      <ProductPreviewImageBackground rootClassName="product-preview-image-background-root-class-name1"></ProductPreviewImageBackground>
+      <Productbannerglowtower rootClassName="productbannerglowtower-root-class-name1"></Productbannerglowtower>
       <div className="products-container01">
         <div className="products-container02">
           <span className="products-text">GlowLight</span>

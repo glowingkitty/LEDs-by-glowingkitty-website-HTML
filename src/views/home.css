@@ -13,7 +13,7 @@
   height: 80vh;
   display: flex;
   position: relative;
-  margin-top: 80px;
+  margin-top: 30px;
   min-height: 380px;
   align-items: center;
   flex-direction: column;
@@ -74,7 +74,7 @@
   font-family: Lexend Deca;
 }
 .home-text2 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 14px;
   margin-top: 21px;
   font-family: Lexend Deca;
@@ -88,7 +88,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-navlink {
+.home-link1 {
   color: #ffffff;
   font-family: Lexend Deca;
   padding-top: 10px;
@@ -97,8 +97,9 @@
   padding-bottom: 10px;
   text-decoration: none;
 }
-.home-link1 {
+.home-link2 {
   color: rgb(255, 255, 255);
+  display: none;
   font-family: Lexend Deca;
   padding-top: 10px;
   padding-left: 10px;
@@ -150,7 +151,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-navlink1 {
+.home-navlink {
   color: #ffffff;
   font-family: Lexend Deca;
   padding-top: 10px;
@@ -159,7 +160,7 @@
   padding-bottom: 10px;
   text-decoration: none;
 }
-.home-link2 {
+.home-link3 {
   color: rgb(255, 255, 255);
   font-family: Lexend Deca;
   padding-top: 10px;
@@ -185,6 +186,11 @@
   margin-top: -80px;
   align-items: flex-start;
   margin-bottom: 80px;
+}
+@media(max-width: 767px) {
+  .home-container1 {
+    margin-top: 10px;
+  }
 }
 @media(max-width: 479px) {
   .home-container2 {
