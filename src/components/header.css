@@ -145,12 +145,15 @@
     height: 40px;
   }
   .header-mobile-menu {
-    padding: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     background-color: var(--dl-color-gray-brightgray);
   }
   .header-image {
     width: 135px;
-    height: 45px;
+    height: 35px;
   }
   .header-icon2 {
     fill: #ffffff;

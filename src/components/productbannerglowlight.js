@@ -36,17 +36,17 @@ const Productbannerglowlight = (props) => {
 }
 
 Productbannerglowlight.defaultProps = {
-  rootClassName: '',
   productname: 'GlowLight',
   description: 'What a beautiful desk lamp!',
+  rootClassName: '',
   cta1: 'Learn more',
   cta2: 'Show prices',
 }
 
 Productbannerglowlight.propTypes = {
-  rootClassName: PropTypes.string,
   productname: PropTypes.string,
   description: PropTypes.string,
+  rootClassName: PropTypes.string,
   cta1: PropTypes.string,
   cta2: PropTypes.string,
 }
