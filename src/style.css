@@ -88,7 +88,6 @@
 }
 .teleport-show {
   display: flex !important;
-  transform: none !important;
 }
 .headermenulink {
   color: rgba(255, 255, 255, 0.5);

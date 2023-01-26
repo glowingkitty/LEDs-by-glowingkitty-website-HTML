@@ -6,7 +6,7 @@ import './productbannerglowlight.css'
 
 const Productbannerglowlight = (props) => {
   return (
-    <div className="productbannerglowlight-container">
+    <div className={`productbannerglowlight-container ${props.rootClassName} `}>
       <div className="productbannerglowlight-container1">
         <span className="productbannerglowlight-text">{props.productname}</span>
         <span className="productbannerglowlight-text1">
@@ -14,7 +14,7 @@ const Productbannerglowlight = (props) => {
         </span>
         <div className="productbannerglowlight-container2">
           <a
-            href="https://shop.glowingkitty.com/products/glowtower"
+            href="https://shop.glowingkitty.com/products/glowlight"
             target="_blank"
             rel="noreferrer noopener"
             className="productbannerglowlight-link product_promoteblock_link"

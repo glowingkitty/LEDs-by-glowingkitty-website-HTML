@@ -6,8 +6,9 @@ import { Helmet } from 'react-helmet'
 import Header from '../components/header'
 import TopicSeparator from '../components/topic-separator'
 import Productbannerglowtower from '../components/productbannerglowtower'
+import Productbannerglowlight from '../components/productbannerglowlight'
 import MeetupList from '../components/meetup-list'
-import ProductPreviewImageFront from '../components/product-preview-image-front'
+import Productbannerglowcore from '../components/productbannerglowcore'
 import NeedHelpWithAProject from '../components/need-help-with-a-project'
 import ShowAllProducts from '../components/show-all-products'
 import FooterSocial from '../components/footer-social'
@@ -36,37 +37,14 @@ const Home = (props) => {
         rootClassName="topic-separator-root-class-name1"
       ></TopicSeparator>
       <Productbannerglowtower rootClassName="productbannerglowtower-root-class-name"></Productbannerglowtower>
+      <Productbannerglowlight rootClassName="productbannerglowlight-root-class-name"></Productbannerglowlight>
       <div className="home-container2">
         <div className="home-container3">
-          <span className="home-text1">GlowLight</span>
-          <span className="home-text2">What a beautiful desk lamp!</span>
-          <div className="home-container4">
-            <a
-              href="https://shop.glowingkitty.com/products/glowlight"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link1 product_promoteblock_link"
-            >
-              Learn more
-            </a>
-            <a
-              href="https://shop.glowingkitty.com/products/glowlight"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link2 product_promoteblock_link"
-            >
-              Show prices
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="home-container5">
-        <div className="home-container6">
-          <span className="home-text3">GlowTube</span>
-          <span className="home-text4">
+          <span className="home-text1">GlowTube</span>
+          <span className="home-text2">
             Looks great alone, as twins even better!
           </span>
-          <div className="home-container7">
+          <div className="home-container4">
             <Link to="/glow-tube" className="home-navlink">
               Learn more
             </Link>
@@ -74,7 +52,7 @@ const Home = (props) => {
               href="https://shop.glowingkitty.com/products/glowtube"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link3"
+              className="home-link1"
             >
               Show prices
             </a>
@@ -87,7 +65,7 @@ const Home = (props) => {
         rootClassName="topic-separator-root-class-name"
       ></TopicSeparator>
       <MeetupList rootClassName="meetup-list-root-class-name"></MeetupList>
-      <ProductPreviewImageFront rootClassName="product-preview-image-front-root-class-name"></ProductPreviewImageFront>
+      <Productbannerglowcore rootClassName="productbannerglowcore-root-class-name"></Productbannerglowcore>
       <div id="help" className="home-topic-section2"></div>
       <NeedHelpWithAProject rootClassName="need-help-with-a-project-root-class-name"></NeedHelpWithAProject>
       <ShowAllProducts rootClassName="show-all-products-root-class-name"></ShowAllProducts>

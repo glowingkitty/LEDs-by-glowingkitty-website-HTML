@@ -83,18 +83,36 @@ const Header = (props) => {
               data-role="Nav"
               className="header-nav2"
             >
-              <span className="headermenulink mobilemenuheader">
-                {props.text4}
-              </span>
-              <span className="header-text1 headermenulink mobilemenuheader">
-                {props.text5}
-              </span>
-              <span className="header-text2 headermenulink mobilemenuheader">
-                {props.text6}
-              </span>
-              <span className="header-text3 headermenulink mobilemenuheader">
-                {props.text7}
-              </span>
+              <Link
+                to="/products"
+                className="header-link3 headermenulink mobilemenuheader"
+              >
+                {props.text8}
+              </Link>
+              <a
+                href={props.link_text3}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link4 headermenulink mobilemenuheader"
+              >
+                {props.text11}
+              </a>
+              <a
+                href={props.link_text11}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link5 headermenulink mobilemenuheader"
+              >
+                {props.text21}
+              </a>
+              <a
+                href={props.link_text21}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link6 headermenulink mobilemenuheader"
+              >
+                {props.text31}
+              </a>
             </nav>
           </div>
         </div>
@@ -105,38 +123,44 @@ const Header = (props) => {
 
 Header.defaultProps = {
   Logo_src: '/playground_assets/logo1.svg',
-  text5: 'Workshops',
   link_text2: 'https://blog.glowingkitty.com',
   text3: 'Blog',
   Logo_alt: 'logo',
-  text7: 'Blog',
   image_src: '/playground_assets/logo1.svg',
   text1: 'Workshops',
   text: 'Products',
   link_text1: 'https://discord.glowingkitty.com',
-  text6: 'Community',
   link_text: 'https://workshops.glowingkitty.com',
   image_alt: 'image',
-  text4: 'Products',
   text2: 'Community',
+  text8: 'Products',
+  text11: 'Workshops',
+  link_text3: 'https://workshops.glowingkitty.com',
+  link_text11: 'https://discord.glowingkitty.com',
+  text21: 'Community',
+  link_text21: 'https://blog.glowingkitty.com',
+  text31: 'Blog',
 }
 
 Header.propTypes = {
   Logo_src: PropTypes.string,
-  text5: PropTypes.string,
   link_text2: PropTypes.string,
   text3: PropTypes.string,
   Logo_alt: PropTypes.string,
-  text7: PropTypes.string,
   image_src: PropTypes.string,
   text1: PropTypes.string,
   text: PropTypes.string,
   link_text1: PropTypes.string,
-  text6: PropTypes.string,
   link_text: PropTypes.string,
   image_alt: PropTypes.string,
-  text4: PropTypes.string,
   text2: PropTypes.string,
+  text8: PropTypes.string,
+  text11: PropTypes.string,
+  link_text3: PropTypes.string,
+  link_text11: PropTypes.string,
+  text21: PropTypes.string,
+  link_text21: PropTypes.string,
+  text31: PropTypes.string,
 }
 
 export default Header
