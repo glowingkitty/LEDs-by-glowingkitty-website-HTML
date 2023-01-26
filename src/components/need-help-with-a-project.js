@@ -60,12 +60,23 @@ const NeedHelpWithAProject = (props) => {
         {props.text2}
       </Link>
       <span className="need-help-with-a-project-text6">{props.text3}</span>
-      <a
-        href="mailto:support@glowingkitty.com?subject="
-        className="need-help-with-a-project-link2"
-      >
-        {props.text4}
-      </a>
+      <span className="need-help-with-a-project-text7">{props.text4}</span>
+      <div className="need-help-with-a-project-container4">
+        <a
+          href="https://whatsapp.glowingkitty.com"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="need-help-with-a-project-link2"
+        >
+          {props.whatsapp}
+        </a>
+        <a
+          href="mailto:support@glowingkitty.com?subject="
+          className="need-help-with-a-project-link3"
+        >
+          {props.email}
+        </a>
+      </div>
     </div>
   )
 }
@@ -80,13 +91,16 @@ NeedHelpWithAProject.defaultProps = {
   option2: 'Option 2:',
   image_alt: 'image',
   image_src: '/playground_assets/twopeople.svg',
-  text4: 'Click here to write me an e-mail.',
   image_alt1: 'image',
   option1_details: 'Get 1 to 1 help from glowingkitty!',
   text2: 'Check out the product pages for FAQ, documentation and more.',
   option1: 'Option 1:',
   text3: 'Still have open questions?',
   button_option_1: 'Book appointment',
+  whatsapp: 'WhatsApp',
+  link_text: 'https://example.com',
+  text4: 'Chat with us via WhatsApp, or email us:',
+  email: 'Email',
 }
 
 NeedHelpWithAProject.propTypes = {
@@ -99,13 +113,16 @@ NeedHelpWithAProject.propTypes = {
   option2: PropTypes.string,
   image_alt: PropTypes.string,
   image_src: PropTypes.string,
-  text4: PropTypes.string,
   image_alt1: PropTypes.string,
   option1_details: PropTypes.string,
   text2: PropTypes.string,
   option1: PropTypes.string,
   text3: PropTypes.string,
   button_option_1: PropTypes.string,
+  whatsapp: PropTypes.string,
+  link_text: PropTypes.string,
+  text4: PropTypes.string,
+  email: PropTypes.string,
 }
 
 export default NeedHelpWithAProject
