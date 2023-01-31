@@ -10,72 +10,75 @@ const NeedHelpWithAProject = (props) => {
     <div
       className={`need-help-with-a-project-container ${props.rootClassName} `}
     >
-      <span className="need-help-with-a-project-text">{props.heading}</span>
+      <div id="help" className="need-help-with-a-project-topic-section"></div>
       <div className="need-help-with-a-project-container1">
+        <span className="need-help-with-a-project-text">{props.heading}</span>
         <div className="need-help-with-a-project-container2">
-          <span className="need-help-with-a-project-text1">
-            {props.option1}
-          </span>
-          <span className="need-help-with-a-project-text2">
-            {props.option1_details}
-          </span>
-          <img
-            alt={props.image_alt}
-            src={props.image_src}
-            className="need-help-with-a-project-image"
-          />
+          <div className="need-help-with-a-project-container3">
+            <span className="need-help-with-a-project-text1">
+              {props.option1}
+            </span>
+            <span className="need-help-with-a-project-text2">
+              {props.option1_details}
+            </span>
+            <img
+              alt={props.image_alt}
+              src={props.image_src}
+              className="need-help-with-a-project-image"
+            />
+            <a
+              href="https://shop.glowingkitty.com/products/ask-a-mentor"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="need-help-with-a-project-link button"
+            >
+              {props.button_option_1}
+            </a>
+          </div>
+          <div className="need-help-with-a-project-container4">
+            <span className="need-help-with-a-project-text3">
+              {props.option2}
+            </span>
+            <span className="need-help-with-a-project-text4">
+              {props.option2_details}
+            </span>
+            <img
+              alt={props.image_alt1}
+              src={props.image_src1}
+              className="need-help-with-a-project-image1"
+            />
+            <a
+              href="https://discord.glowingkitty.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="need-help-with-a-project-link1 button"
+            >
+              {props.button_option_2}
+            </a>
+          </div>
+        </div>
+        <span className="need-help-with-a-project-text5">{props.text}</span>
+        <Link to="/products" className="need-help-with-a-project-navlink">
+          {props.text2}
+        </Link>
+        <span className="need-help-with-a-project-text6">{props.text3}</span>
+        <span className="need-help-with-a-project-text7">{props.text4}</span>
+        <div className="need-help-with-a-project-container5">
           <a
-            href="https://shop.glowingkitty.com/products/ask-a-mentor"
+            href="https://whatsapp.glowingkitty.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="need-help-with-a-project-link button"
+            className="need-help-with-a-project-link2"
           >
-            {props.button_option_1}
+            {props.whatsapp}
           </a>
-        </div>
-        <div className="need-help-with-a-project-container3">
-          <span className="need-help-with-a-project-text3">
-            {props.option2}
-          </span>
-          <span className="need-help-with-a-project-text4">
-            {props.option2_details}
-          </span>
-          <img
-            alt={props.image_alt1}
-            src={props.image_src1}
-            className="need-help-with-a-project-image1"
-          />
           <a
-            href="https://discord.glowingkitty.com"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="need-help-with-a-project-link1 button"
+            href="mailto:support@glowingkitty.com?subject="
+            className="need-help-with-a-project-link3"
           >
-            {props.button_option_2}
+            {props.email}
           </a>
         </div>
-      </div>
-      <span className="need-help-with-a-project-text5">{props.text}</span>
-      <Link to="/products" className="need-help-with-a-project-navlink">
-        {props.text2}
-      </Link>
-      <span className="need-help-with-a-project-text6">{props.text3}</span>
-      <span className="need-help-with-a-project-text7">{props.text4}</span>
-      <div className="need-help-with-a-project-container4">
-        <a
-          href="https://whatsapp.glowingkitty.com"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="need-help-with-a-project-link2"
-        >
-          {props.whatsapp}
-        </a>
-        <a
-          href="mailto:support@glowingkitty.com?subject="
-          className="need-help-with-a-project-link3"
-        >
-          {props.email}
-        </a>
       </div>
     </div>
   )

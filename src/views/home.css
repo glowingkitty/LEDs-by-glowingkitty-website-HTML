@@ -115,15 +115,6 @@
   align-items: flex-start;
   margin-bottom: 80px;
 }
-.home-topic-section2 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin-top: -80px;
-  align-items: flex-start;
-  margin-bottom: 80px;
-}
 @media(max-width: 767px) {
   .home-container1 {
     padding-top: 65px;

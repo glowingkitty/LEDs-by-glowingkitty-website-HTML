@@ -66,7 +66,6 @@ const Home = (props) => {
       ></TopicSeparator>
       <MeetupList rootClassName="meetup-list-root-class-name"></MeetupList>
       <Productbannerglowcore rootClassName="productbannerglowcore-root-class-name"></Productbannerglowcore>
-      <div id="help" className="home-topic-section2"></div>
       <NeedHelpWithAProject rootClassName="need-help-with-a-project-root-class-name"></NeedHelpWithAProject>
       <ShowAllProducts rootClassName="show-all-products-root-class-name"></ShowAllProducts>
       <FooterSocial rootClassName="footer-social-root-class-name"></FooterSocial>
