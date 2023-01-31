@@ -23,3 +23,8 @@
 .topic-separator-root-class-name2 {
   margin-top: 85px;
 }
+@media(max-width: 767px) {
+  .topic-separator-root-class-name2 {
+    margin-top: 60px;
+  }
+}
