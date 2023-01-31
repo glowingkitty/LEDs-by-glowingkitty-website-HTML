@@ -1,0 +1,41 @@
+<template>
+  <div class="meetup-preview-container" v-bind:class="rootClassName"></div>
+</template>
+
+<script>
+export default {
+  name: 'MeetupPreview',
+  props: {
+    rootClassName: String,
+  },
+}
+</script>
+
+<style scoped>
+.meetup-preview-container {
+  width: 31%;
+  height: 132px;
+  display: flex;
+  position: relative;
+  max-width: 300px;
+  min-width: 200px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  background-color: #252525;
+}
+
+
+
+
+
+
+
+@media(max-width: 479px) {
+  .meetup-preview-container {
+    width: 100%;
+  }
+}
+</style>
