@@ -37,12 +37,7 @@ const Header = (props) => {
             >
               {props.text1}
             </a>
-            <a
-              href={props.link_text1}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="header-link1 headermenulink"
-            >
+            <a href="#help" className="header-link1 headermenulink">
               {props.text2}
             </a>
             <a
@@ -123,43 +118,43 @@ const Header = (props) => {
 
 Header.defaultProps = {
   Logo_src: '/playground_assets/logo1.svg',
+  link_text21: 'https://blog.glowingkitty.com',
   link_text2: 'https://blog.glowingkitty.com',
   text3: 'Blog',
   Logo_alt: 'logo',
+  text8: 'Products',
   image_src: '/playground_assets/logo1.svg',
   text1: 'Workshops',
   text: 'Products',
+  link_text11: 'https://discord.glowingkitty.com',
   link_text1: 'https://discord.glowingkitty.com',
   link_text: 'https://workshops.glowingkitty.com',
   image_alt: 'image',
-  text2: 'Community',
-  text8: 'Products',
-  text11: 'Workshops',
   link_text3: 'https://workshops.glowingkitty.com',
-  link_text11: 'https://discord.glowingkitty.com',
   text21: 'Community',
-  link_text21: 'https://blog.glowingkitty.com',
+  text2: 'Get help',
+  text11: 'Workshops',
   text31: 'Blog',
 }
 
 Header.propTypes = {
   Logo_src: PropTypes.string,
+  link_text21: PropTypes.string,
   link_text2: PropTypes.string,
   text3: PropTypes.string,
   Logo_alt: PropTypes.string,
+  text8: PropTypes.string,
   image_src: PropTypes.string,
   text1: PropTypes.string,
   text: PropTypes.string,
+  link_text11: PropTypes.string,
   link_text1: PropTypes.string,
   link_text: PropTypes.string,
   image_alt: PropTypes.string,
-  text2: PropTypes.string,
-  text8: PropTypes.string,
-  text11: PropTypes.string,
   link_text3: PropTypes.string,
-  link_text11: PropTypes.string,
   text21: PropTypes.string,
-  link_text21: PropTypes.string,
+  text2: PropTypes.string,
+  text11: PropTypes.string,
   text31: PropTypes.string,
 }
 

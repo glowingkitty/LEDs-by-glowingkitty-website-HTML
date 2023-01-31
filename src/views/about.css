@@ -6,3 +6,43 @@
   align-items: center;
   flex-direction: column;
 }
+.about-container1 {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  position: relative;
+  min-height: 380px;
+  align-items: center;
+  padding-top: 20vh;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0.00%,rgba(0, 0, 0, 0.6) 99.00%),url("/playground_assets/header-1500h.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-text {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  max-width: 370px;
+  font-style: normal;
+  text-align: center;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.about-text1 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-align: center;
+  font-family: Lexend Deca;
+  margin-bottom: 50px;
+}
+.about-link {
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .about-container1 {
+    padding-top: 65px;
+  }
+}

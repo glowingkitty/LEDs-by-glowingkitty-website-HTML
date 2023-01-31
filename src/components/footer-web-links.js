@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -23,14 +24,9 @@ const FooterWebLinks = (props) => {
       >
         {props.text1}
       </a>
-      <a
-        href={props.link_text11}
-        target="_blank"
-        rel="noreferrer noopener"
-        className="footer-web-links-link2"
-      >
+      <Link to="/about" className="footer-web-links-navlink">
         {props.text11}
-      </a>
+      </Link>
     </div>
   )
 }
@@ -42,7 +38,7 @@ FooterWebLinks.defaultProps = {
   link_text1: 'https://example.com',
   link_text: 'https://example.com',
   text: 'Imprint',
-  text11: 'Support',
+  text11: 'About',
 }
 
 FooterWebLinks.propTypes = {
