@@ -93,12 +93,10 @@ const Header = (props) => {
                 {props.text11}
               </a>
               <a
-                href={props.link_text11}
-                target="_blank"
-                rel="noreferrer noopener"
+                href="#help"
                 className="header-link5 headermenulink mobilemenuheader"
               >
-                {props.text21}
+                {props.text22}
               </a>
               <a
                 href={props.link_text21}
@@ -126,15 +124,14 @@ Header.defaultProps = {
   image_src: '/playground_assets/logo1.svg',
   text1: 'Workshops',
   text: 'Products',
-  link_text11: 'https://discord.glowingkitty.com',
   link_text1: 'https://discord.glowingkitty.com',
   link_text: 'https://workshops.glowingkitty.com',
   image_alt: 'image',
   link_text3: 'https://workshops.glowingkitty.com',
-  text21: 'Community',
   text2: 'Get help',
   text11: 'Workshops',
   text31: 'Blog',
+  text22: 'Get help',
 }
 
 Header.propTypes = {
@@ -147,15 +144,14 @@ Header.propTypes = {
   image_src: PropTypes.string,
   text1: PropTypes.string,
   text: PropTypes.string,
-  link_text11: PropTypes.string,
   link_text1: PropTypes.string,
   link_text: PropTypes.string,
   image_alt: PropTypes.string,
   link_text3: PropTypes.string,
-  text21: PropTypes.string,
   text2: PropTypes.string,
   text11: PropTypes.string,
   text31: PropTypes.string,
+  text22: PropTypes.string,
 }
 
 export default Header

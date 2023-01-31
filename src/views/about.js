@@ -3,6 +3,9 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
+import NeedHelpWithAProject from '../components/need-help-with-a-project'
+import FooterSocial from '../components/footer-social'
+import FooterWebLinks from '../components/footer-web-links'
 import './about.css'
 
 const About = (props) => {
@@ -40,6 +43,9 @@ const About = (props) => {
           Learn more
         </a>
       </div>
+      <NeedHelpWithAProject rootClassName="need-help-with-a-project-root-class-name2"></NeedHelpWithAProject>
+      <FooterSocial rootClassName="footer-social-root-class-name2"></FooterSocial>
+      <FooterWebLinks rootClassName="footer-web-links-root-class-name2"></FooterWebLinks>
     </div>
   )
 }

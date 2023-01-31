@@ -9,7 +9,7 @@ const FooterWebLinks = (props) => {
   return (
     <div className={`footer-web-links-container ${props.rootClassName} `}>
       <a
-        href={props.link_text}
+        href="https://shop.glowingkitty.com/pages/imprint"
         target="_blank"
         rel="noreferrer noopener"
         className="footer-web-links-link"
@@ -17,7 +17,7 @@ const FooterWebLinks = (props) => {
         {props.text}
       </a>
       <a
-        href={props.link_text1}
+        href="https://shop.glowingkitty.com/policies/privacy-policy"
         target="_blank"
         rel="noreferrer noopener"
         className="footer-web-links-link1"
