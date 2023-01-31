@@ -1,0 +1,10 @@
+.eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text1 {
+  color: #ffffff;
+  font-family: Lexend Deca;
+}
+
+@media(max-width: 991px) {
+  .eventsworkshops-how-to-plan-build-your-own-l-e-d-project-text1 {
+    font-size: 17px;
+  }
+}
